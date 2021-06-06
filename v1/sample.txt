@@ -1,0 +1,132 @@
+
+
+Integer Func_Max PB Integer Var_a, Integer Var_b PE
+BB
+
+BE
+
+
+
+
+Integer Func_Main PB PE
+BB
+	Print_str PB "Arman" PE.
+	Print_Line PB PE.
+	Integer Var_a Equal 17 Plus 83.
+	Integer Var_aB Equal Var_a.
+	Integer Var_b Equal 25,Var_c Equal Var_b.
+	Print_Var PB Var_a PE.
+	Print_Line PB PE.
+	Print_Var PB Var_aB PE.
+	
+	Print_Line PB PE.
+
+	Print_Line PB PE.
+
+	Integer Var_p Equal 7, Var_q Equal 10.
+
+	# hello world #
+
+
+
+
+	If PB 0 L_Sm 4 PE
+	BB
+		Print_str PB "IF " PE. 
+
+	BE
+	ElseIf PB 1 L_Sm 4 PE
+	BB
+		Print_str PB "Else IF" PE.	
+
+	BE
+	ElseIf PB 2 L_Sm 4 PE
+	BB
+		Print_str PB "Another Else IF" PE.
+	BE
+	Else
+	BB
+		Print_str PB "Else" PE.
+		
+	BE
+
+
+	Var_a Equal 6 Plus Var_a.
+	Print_Var PB Var_a PE.
+	Integer Var_st Equal 1 Plus 0.
+	Integer Var_ed Equal 10.
+
+
+	
+	Print_Line PB PE.
+	For_Loop PB Var_st To Var_ed IncrementBy 1 PE
+	BB
+		
+	BE
+	Print_Line PB PE.
+
+	For_Loop PB Var_st To Var_ed IncrementBy 1 PE
+	BB
+		Print_str PB "Loop start" PE.
+		Print_Line PB PE.
+		Print_Var PB Var_a PE.
+		Print_Line PB PE.
+		Print_str PB "Loop end" PE.
+	BE
+
+
+	Print_str PB "new code" PE.
+	Print_Line PB PE.
+
+	Switch PB 7 PE
+	BB
+		1:
+			BB
+
+			BE
+		7:
+			BB
+
+			BE
+
+
+		*:  BB
+
+			BE
+	BE
+
+	Integer Var_i Equal 14.
+
+	# Great for Decrement , Less for Increment, all by 1#
+	While PB Var_i Great 10 PE
+	BB
+		Print_str PB "While .. " PE.
+		Print_Line PB PE.
+	BE
+
+
+	Print_str PB "Enter a value (Integer): " PE.
+	Integer Var_ina.
+	Scan PB Var_ina PE.
+
+	Print_str PB "Enter another value (Integer): " PE.
+	Integer Var_inb.
+	Scan PB Var_inb PE.
+
+	Integer Var_res Equal Var_ina Multiply Var_inb.
+
+	Print_str PB "Multiplication Result: " PE.
+	Print_Var PB Var_res PE. 
+	
+	#Print_Var PB Var_in PE.#
+
+
+
+	
+
+
+
+
+BE
+
+
